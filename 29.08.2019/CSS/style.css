@@ -1,0 +1,550 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: .0625em;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+header .logo{
+ display: inline-block;
+}
+header .logo h3{
+    margin-top: 0;
+    padding: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+
+}
+.menu{
+    display: inline-block;
+    float:right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding-top: 14px;
+    margin-left: 50px;
+ display: inline-block;
+}
+.menu ul li a:hover{
+    color: gray;
+}
+.banner{
+    text-align: center;
+    line-height: 2;
+
+}
+.banner h1{
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    margin-bottom: 0;
+    color:gray ;
+    text-transform: uppercase;
+    margin-top: 140px;
+  
+}
+.banner p{
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+.banner .button{
+    padding: 1.25rem 2rem;
+    text-decoration: none;
+    color:white;
+    border: 0;
+background: #467370;
+display: inline-block;
+border-radius: 5%;
+box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1);
+text-transform: uppercase;
+}
+
+.banner .button:hover{
+    background: #4f837f;
+}
+#built{
+    text-align:center;
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+    padding: 150px 0 0 0;
+
+}
+#built h1{
+    color: white;
+    font-size: 2rem;
+}
+#built p{
+    letter-spacing: 2px;
+    color:rgba(255,255,255,.5);
+    margin-bottom: 5rem;
+    padding: 0 162px;
+}
+#built p a{
+    color: #64a19d;
+    text-decoration: none;
+    line-height: 2;
+}
+
+#built img{
+    margin-top: 16px;
+    width: 100%;
+    display: inline-block;
+}
+#project{
+    padding: 10rem 0;
+    background-color: #f8f9fa;
+
+}
+
+.bg-light {
+    background-color: #f8f9fa
+}
+#project .img{
+    float: left;
+    margin-top: 130px;
+     width: 70%;
+ }
+ #project .img img{
+    max-width: 100%;
+ }
+ #project .text{
+    float: left;
+   padding-left: 35px;
+    width: 28%;
+    border-left: 8px solid #64a19d;
+    margin-top: 150px;
+    margin-top:  270px;
+}
+#project .text h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+}
+#project .text p{
+    color: rgba(0,0,0,.5);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.collage{
+    margin-top: 50px;
+
+
+}
+.collage .single-collage{
+    float: left;
+    width: 49%;
+}
+.collage .single-collage img{
+
+    width: 100%;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+.collage .single-collage.content{
+    background: black;
+}
+.collage .single-collage.cantent{
+
+    background: black;
+}
+.collage .single-collage.cantent{
+    text-align: left;
+    color: white;
+    padding: 133px;
+    
+}
+.collage .single-collage.content{
+    text-align: left;
+    color: white;
+    padding: 133px;
+}
+.collage .single-collage.content h1{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.collage .single-collage.content p{
+    color: rgba(255,255,255,.5);
+    margin-bottom: 0;
+    font-size: 90%;
+    margin-top: 0%
+}
+.collage .single-collage.content hr{
+    background: #4f837f;
+    height: 4px;
+    width: 30%;
+    border: none;
+    margin-left: 0px;
+}
+
+/* .collage .single-collage.cantent{
+    color:white;
+    padding: 143px;
+    text-align: right;
+    background: black;
+  
+}
+.collage .single-collage.cantent h1{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.collage .single-collage.cantent p{
+    color: rgba(255,255,255,.5);
+    margin-bottom: 0;
+    font-size: 90%;
+    margin-top: 0%
+/* } */
+/* .collage .single-collage.cantent hr{
+    background: #4f837f;
+    height: 4px;
+    width: 30%;
+    border: none;
+    margin-right: 0px;
+} */ */
+#project.single-collag.image{
+    float: right;
+    width: 49%;
+}
+#project.single-collage.content.image{
+    width:49%;
+}
+
+#signup{
+    padding: 10rem 0;
+    background-image: url(../img/bg-signup.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+}
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.text-center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#signup .row .far{
+    font-size: 2em;
+    line-height: 1;
+  display: inline-block;
+  color:#fff;
+  
+}
+#signup .row .text-center h2{
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+   margin-top: 0;
+}
+#signup .email input{
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    display: inline-block;
+    width: auto;
+    margin-right: .5rem;
+    margin-bottom: 0;
+    border-radius: 5%;
+
+}
+.btn{
+    background-color: #64a19d;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5%;
+
+
+}
+.btn:hover{
+background: #467370;
+    }
+
+    #contact{
+        background: #161616;
+        padding: 5rem 0 0;
+        display: block;
+        text-align: center;
+
+    }
+    .about{
+        padding-bottom: 150px;
+    }
+#contact .about .address{
+    margin-bottom: 0;
+    width: 27%;
+    height: 170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: white;
+    border-radius: 3%;
+    display: inline-block;
+    border: 0;
+    border-bottom: .25rem solid #64a19d;
+}
+
+
+
+  
+
+#contact .about  i{
+color: #64a19d;
+margin-top: 20px;
+margin-bottom: .5rem;
+font-weight: 900;
+display: inline-block;
+font-style: normal;
+line-height: 2;
+text-align: center;
+
+}
+#contact .about .address h4{
+    font-size: .8rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+#contact .about .address hr{
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid;
+    height: 0;
+    text-align: center;
+    border-style: thick;
+
+}
+#contact .about .address p{
+
+    color: rgba(0,0,0,.5);
+    font-size: 80%;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+
+}
+
+
+#contact .fas {
+    color: #64a19d;
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    line-height: 2;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+#contact .about .E-mail{
+    margin-bottom: 0;
+    width: 27%;
+    height: 170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    background: white;
+    border-radius: 3%;
+    display: inline-block;
+    border: 0;
+    border-bottom: .25rem solid #64a19d;
+}
+
+
+/* }
+#contact .about .E-mail i{
+    color: #64a19d;
+margin-top: 37px;
+margin-bottom: .5rem
+
+} */
+#contact .about .E-mail h4{
+    font-size: .8rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+#contact .about .E-mail hr{
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid;
+    height: 0;
+    text-align: center;
+    border-style: thick;
+
+}
+#contact .about .E-mail .hello{
+
+    color:#64a19d;
+    font-size: 80%;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.hello a:hover{
+    color: #467370
+}
+
+#contact .about .phone{
+    margin-bottom: 0;
+    width: 27%;
+    height: 170px;
+    padding-right: 15px;
+    padding-left: 15px;
+ 
+    background: white;
+    border-radius: 3%;
+    display: inline-block;
+    border: 0;
+    border-bottom: .25rem solid #64a19d;
+}
+
+
+/* }
+#contact .about .phone i{
+    color: #64a19d;
+margin-top: 37px;
+margin-bottom: .5rem
+} */
+#contact .about .phone h4{
+    font-size: .8rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+#contact .about .phone hr{
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid;
+    height: 0;
+    text-align: center;
+    border-style: thick;
+
+}
+#contact .about .phone p{
+    color: rgba(0,0,0,.5);
+    font-size: 80%;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+.social{
+    margin-top: 5rem;
+    text-decoration: none;
+
+}
+.social ul li{
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+ 
+}
+.social ul li i{
+    font-size: 30px
+}
+.social .tw .fab{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: rgba(255,255,255,.3);
+    text-align: center;
+    padding: 15px 30px;
+
+
+}
+.social .fb .fab{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: rgba(255,255,255,.3);
+    text-align: center;
+    
+    padding: 15px 30px;
+
+}
+.social .gt .fab{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: rgba(255,255,255,.3);
+    text-align: center;
+    padding: 15px 30px;
+
+
+}
+

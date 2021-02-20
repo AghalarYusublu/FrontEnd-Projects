@@ -1,0 +1,22 @@
+.slider{
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    width: 700px;
+    height: 500px;
+
+}
+.imgs{
+display: flex;
+transition: 1s
+}
+img{
+    width: 100%;
+    position: relative;
+    transition: 1s
+}
+.btns{
+    margin: 20px;
+    display: flex;
+    justify-content: center
+}

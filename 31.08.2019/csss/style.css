@@ -1,0 +1,57 @@
+.agha{
+    width: 500px;
+    height: 700px;
+position: relative;
+}
+.agha img{
+    width: 100%;
+    height: 100%;
+   
+/* left: 50px;
+top:50px; */
+}
+.agha .app{
+position: absolute;
+left: 5px;
+right: 0;
+top: 15px;
+text-align: center;
+color: black;
+display: inline-block;
+width: 98%;
+text-decoration: none;
+padding: 20px 0;
+background: rgb(161, 161, 161);
+}
+.agha ul{
+position: absolute;
+bottom: 40px;
+left:50%;
+transform: translate(-50%);
+
+}
+.agha ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border:2px solid rgb(161, 161, 161);
+    border-radius: 50%;
+
+}
+.agha ul li i{
+    color:rgb(161, 161, 161);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.agha:hover{
+    opacity: 0.3
+}
+

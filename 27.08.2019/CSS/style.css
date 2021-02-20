@@ -1,0 +1,72 @@
+.a{
+    
+        color:white;
+        padding: 25px;
+        border: solid 2px aliceblue;
+        width: 200px;
+        
+    
+    
+    }
+
+.text  {
+    color: aliceblue
+}
+.fieldset{
+    width: 350px
+}
+
+.p{
+    color: aliceblue
+}
+.h3{
+    color: aliceblue;
+    /* text-align: right */
+    margin-left: 40px
+}
+.home{
+    text-align: center;
+    color:aliceblue;
+    
+    
+}
+.x{
+    color: aliceblue;
+    border: solid 1px aliceblue;
+    color: aliceblue;
+    padding: 8px;
+    width: 200px;
+    background-color: black
+}
+.x1{
+    color: aliceblue;
+    padding:8px;
+border: solid 1px aliceblue;
+background-color: black
+    
+}
+.iphone {
+    color: aliceblue;
+    border: solid 1px aliceblue;
+    padding: 8px;
+    width: 200px;
+    background-color: black
+    
+}
+.iphone1{
+    color: aliceblue;
+    padding:8px;
+border: solid 1px aliceblue;
+background-color: black
+}
+
+.A{
+    color: aliceblue;
+
+}
+.text1{
+    color:aliceblue;
+    width: 100px;
+    height: 40px;
+background-color: black
+}

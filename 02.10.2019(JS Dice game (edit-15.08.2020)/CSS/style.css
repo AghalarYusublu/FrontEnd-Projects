@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/202978.jpg)
+}
+.game-board{
+    width: 200px;
+    height: 170px;
+    border: 2px solid black;
+    position:absolute;
+        left: 20px;
+ top: 40px;
+ background-image: url(../img/f2bc8848b997efa57207f6f02b3eeb1f.jpg)
+}
+.btn {
+    margin-left: 60px;
+    margin-top: 30px
+}
+h4{
+    color: aliceblue;
+    font-size: 30px
+}
+span{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+p{
+    margin-left: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 1.2rem !important
+
+}
+h5{
+    margin-left: 5px;
+    display: inline-block;
+    color: aliceblue
+
+}
+.image1{
+    display:inline-block;
+    margin-top: 55px
+
+}
+.image2{
+    display:inline-block
+}

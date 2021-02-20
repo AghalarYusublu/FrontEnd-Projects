@@ -1,0 +1,996 @@
+
+
+
+body{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin: 0;
+    line-height: 1.7;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.clear{
+    clear: both;
+}
+header .top{
+    background: #f5f5f5;
+
+}
+header .top ul{
+    margin: 13px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+.top ul li a{
+    font-size: 18px;
+    color: #888;
+    padding: 10px;
+
+}
+.top ul li a:hover{
+    text-decoration: none;
+    color: #e65540;
+}
+
+.email{
+    float: right;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.7;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.email p{
+    display: inline-block;
+    margin-right: 15px;
+}
+.email select{
+    display: inline-block;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.7;
+}
+.bottom{
+    height:90px;
+}
+.bottom .img img{
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-left: 40px
+}
+
+.menu ul{
+    padding: 20px 15px;
+    text-align: center;  
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+.menu ul li{
+padding-right: 30px;
+}
+.menu li a{
+    text-decoration: none;
+ font-size: 15px;
+    color: #333;
+    padding: 0;
+    line-height: 1.7;
+}
+.menu li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+.user{
+    float: right;
+     padding-top: 32px;
+     padding-right: 40px;
+     text-decoration: none
+}
+.user .basket-div{
+    display: inline-block;
+
+}
+.user .user-img{
+    padding-right: 25px;
+    margin-right: 15px;
+    border-right: 4px solid #dbdbdb;
+}
+.basket-div{
+    position: relative;
+}
+.basket-div span{
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    background: black;
+    border-radius: 100%;
+    height: 18px;
+    text-align: center;
+    color: white;
+    width: 17px;
+}
+#banner{
+    height: 600px;;
+    background-image: url("../img/master-slide-04_1920x570.webp");
+    background-size: cover;
+    position: relative;
+}
+#banner .content{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+#banner .content p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+#banner .content h1{
+    font-size: 60px;
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#banner .content a{
+    padding: 17px 43px;  
+      color: black;
+    background: white;
+    text-decoration: none;
+    border-radius: 32px;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+#banner .content a:hover{
+    background-color: #e65540;
+    color: #fff;
+}
+#products{
+background-color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+
+#products  .girl-dresses{ 
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+#products .row .girl-dresses img{
+width: 100%;
+height: 100%;
+transition: 0.4s;
+
+}
+ .girl-dresses:hover img{
+transform: scale(1.1)
+}
+.dresses {
+position: absolute;
+left: 50%;
+bottom: 20px;
+transform: translateX(-50%);
+
+        background-color: rgba(255,255,255,.95);
+        text-align: center;
+ }
+ .dresses .bot{
+        font-size: 16px;
+        color: #333;
+        text-decoration: none;
+        text-transform: uppercase; 
+padding: 10px 35px;
+display: inline-block;
+        justify-content: center;
+
+
+ }
+ .dresses .bot:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+ }
+.coach{ 
+    overflow: hidden;
+    position: relative;
+    display: block ;
+    
+
+}
+
+
+ #products .coach img{
+    width: 100%;
+    height: 100%;  
+     transition: 0.4s;
+}
+.coach:hover img{
+    transform: scale(1.1)
+    }
+.watches{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    
+            background-color: rgba(255,255,255,.95);
+            text-align: center;
+}
+.watches .bot{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase; 
+padding: 10px 35px;
+display: inline-block;
+    justify-content: center;
+
+
+
+}
+.watches .bot:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+ }
+ .boy-bags{ 
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.boy-bags img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.boy-bags:hover img{
+    transform: scale(1.1)
+    }
+.bags{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    
+            background-color: rgba(255,255,255,.95);
+            text-align: center;
+}
+.bags .bot{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase; 
+padding: 10px 35px;
+display: inline-block;
+    justify-content: center;
+
+
+
+}
+.bags .bot:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .glasses{ 
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.glasses img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    
+}
+.glasses:hover img{
+    transform: scale(1.1)
+    }
+.sunglasses{
+    position: absolute;
+left: 50%;
+bottom: 20px;
+transform: translateX(-50%);
+
+        background-color: rgba(255,255,255,.95);
+        text-align: center;
+}
+.sunglasses .bot{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase; 
+padding: 10px 35px;
+display: inline-block;
+    justify-content: center;
+
+
+
+
+}
+.sunglasses .bot:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .girl-footer{ 
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.girl-footer img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.girl-footer:hover img{
+    transform: scale(1.1)
+    }
+.footerwear{
+    position: absolute;
+left: 50%;
+bottom: 20px;
+transform: translateX(-50%);
+
+        background-color: rgba(255,255,255,.95);
+        text-align: center;
+}
+.footerwear .bot{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase; 
+padding: 10px 35px;
+display: inline-block;
+    justify-content: center;
+
+
+
+
+}
+.footerwear .bot:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+ }
+
+
+ .signup{ 
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.signup img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4;  
+}
+.signup .get{
+    position: absolute;
+   left: 0;
+    top: 0;
+text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.signup .get h4{
+    text-align: center;
+    max-width: 294px;
+    font-size: 30px;
+    color: #111;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+margin: 0;
+font-weight: 500;
+}
+.signup .get p{
+    max-width: 257px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #888;
+    margin: 0;
+    text-align: center;
+}
+.signup .sign-up{
+    width: 179px;
+    padding-top: 25px;
+
+}
+.signup .sign-up a{
+border-radius: 23px;
+    background-color: #111;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+transition: 0.4s;
+align-items: center;
+    height: 46px;
+    line-height: 1.7;
+    margin: 0;
+ text-decoration: none;
+}
+.signup .sign-up a:hover{
+    background-color: #e65540;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+.featured-products{
+    position: relative;
+    overflow: hidden;
+
+
+}
+.featured-products img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s
+}
+
+ .overlay{
+    position: absolute;
+    background: black;
+    top:0;
+    opacity: 0; 
+     width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: 0.5s;
+} 
+
+.featured-products:hover .overlay{
+    opacity: 0.3;
+}
+.heart{
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.featured-products:hover .heart{
+    transform: scale(1);
+
+}
+.fas.fa-heart{
+    display: none;
+}
+.heart:hover .far.fa-heart{
+    display: none;
+}
+.heart:hover .fas.fa-heart{
+    display: block;
+}
+.new{
+    position: absolute;
+    background-color: #66a8a6;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 22px;
+    border-radius: 11px;
+
+    top: 12px;
+    left: 12px;
+}
+
+.addToCart{
+    background:#212529;
+    color: white;
+    border-radius: 23px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 18px;
+position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.featured-products:hover .addToCart{
+    bottom: 30px;
+}
+.addToCart:hover{
+    
+    background-color: #e65540;
+    color: #fff;
+}
+.herschel{
+    padding-top: 20px;
+
+}
+.herschel a{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+.herschel a:hover{
+    text-decoration: none;
+    color: #e65540;
+}
+.herschel p{
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+
+
+.jacket{
+    position: relative;
+    overflow: hidden;
+  
+
+}
+.jacket img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s
+}
+
+ .overlay{
+    position: absolute;
+    background: black;
+    top:0;
+    opacity: 0; 
+     width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: 0.5s;
+} 
+
+.jacket:hover .overlay{
+    opacity: 0.3;
+}
+.heart{
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.jacket:hover .heart{
+    transform: scale(1);
+
+}
+.fas.fa-heart{
+    display: none;
+}
+.heart:hover .far.fa-heart{
+    display: none;
+}
+.heart:hover .fas.fa-heart{
+    display: block;
+}
+
+.addToCart{
+    background:#212529;
+    color: white;
+    border-radius: 23px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 18px;
+position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.jacket:hover .addToCart{
+    bottom: 30px;
+}
+.addToCart:hover{
+    
+    background-color: #e65540;
+    color: #fff;
+}
+
+.denim{
+    padding-top: 20px;
+
+}
+.denim a{
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+.denim a:hover{
+    text-decoration: none;
+    color: #e65540;
+}
+.denim p{
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+
+
+.coachslim{
+    position: relative;
+    overflow: hidden;
+
+
+}
+.coachslim img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s
+}
+
+ .overlay{
+    position: absolute;
+    background: black;
+    top:0;
+    opacity: 0; 
+     width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: 0.5s;
+} 
+
+.coachslim:hover .overlay{
+    opacity: 0.3;
+}
+.heart{
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.coachslim:hover .heart{
+    transform: scale(1);
+
+}
+.fas.fa-heart{
+    display: none;
+}
+.heart:hover .far.fa-heart{
+    display: none;
+}
+.heart:hover .fas.fa-heart{
+    display: block;
+}
+
+.addToCart{
+    background:#212529;
+    color: white;
+    border-radius: 23px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 18px;
+position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.coachslim:hover .addToCart{
+    bottom: 30px;
+}
+.addToCart:hover{
+    
+    background-color: #e65540;
+    color: #fff;
+}
+
+.easton{
+    padding-top: 20px;
+
+}
+.easton a{
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+.easton a:hover{
+    text-decoration: none;
+    color: #e65540;
+}
+.easton p{
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+
+
+
+.frayed{
+    position: relative;
+    overflow: hidden;
+
+
+}
+.frayed img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s
+}
+
+ .overlay{
+    position: absolute;
+    background: black;
+    top:0;
+    opacity: 0; 
+     width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: 0.5s;
+} 
+
+.frayed:hover .overlay{
+    opacity: 0.3;
+}
+.heart{
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.frayed:hover .heart{
+    transform: scale(1);
+
+}
+.fas.fa-heart{
+    display: none;
+}
+.heart:hover .far.fa-heart{
+    display: none;
+}
+.heart:hover .fas.fa-heart{
+    display: block;
+}
+.sale{
+    position: absolute;
+    background-color: #e65540;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 22px;
+    border-radius: 11px;
+
+    top: 12px;
+    left: 12px;
+}
+
+.addToCart{
+    background:#212529;
+    color: white;
+    border-radius: 23px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 18px;
+position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.frayed:hover .addToCart{
+    bottom: 30px;
+}
+.addToCart:hover{
+    
+    background-color: #e65540;
+    color: #fff;
+}
+.shorts{
+    padding-top: 20px;
+
+}
+.shorts a{
+
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+.shorts a:hover{
+    text-decoration: none;
+    color: #e65540;
+}
+.shorts .gray{
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    display:block
+}
+.shorts .red{
+    font-size: 16px;
+    color:#e65540 ;
+    text-transform: uppercase;
+    display: block
+}
+
+
+
+
+
+#banner2{
+    background-color: #f2f2f2;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.lookbook{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+.lookbook img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    transition: 0.4s
+}
+.lookbook:hover img{
+    transform: scale(1.1)
+}
+.lookbook .text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.lookbook .text p{
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    padding-top: 166px;
+    margin: 0;
+}
+.lookbook .text h3{
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center
+}
+.lookbook .text .view{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    line-height: 1.7;
+    padding: 50px;
+    text-decoration: none;
+
+}
+.lookbook .text .view:hover{
+color: #fff;
+    text-decoration: underline;
+}
+
+.gafas{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+}
+.gafas img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    transition: 0.4s
+}
+.gafas:hover img{
+    transform: scale(1.1)
+}
+.gafas .text1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.gafas .text1 a{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+    padding-top: 240px;
+}
+
+
+.gafas .text1 a:hover{
+    text-decoration: none;
+color: #e65540;
+}
+
+
+.text1 .oldprice{
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    padding-right: 5px;
+}
+.text1 .newprice{
+    font-size: 16px;
+    color: #e65540;
+    text-transform: uppercase;
+
+}

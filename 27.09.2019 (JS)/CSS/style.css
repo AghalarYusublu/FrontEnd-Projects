@@ -1,0 +1,9 @@
+.row{
+    padding-top: 100px;
+}
+.badge{
+    margin-top: 5px;
+}
+.fas.fa-times{
+    cursor: pointer;
+}

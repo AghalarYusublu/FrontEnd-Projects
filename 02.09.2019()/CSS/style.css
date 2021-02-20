@@ -1,0 +1,194 @@
+body{
+    background: rgb(36, 35, 35)
+
+}
+*{
+    box-sizing: border-box;
+}
+.bmw{
+
+    width: 600px;
+    height: 400px;
+    position: relative;
+    transform: translate(90px,90px);
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+/* .overlay{
+    position: absolute;
+    background: black;
+    top:0;
+    opacity: 0; 
+     width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: 0.5s;
+} */
+.bmw:hover img{
+    transform: scale(1.1)
+}
+.bmw:hover .overlay{
+    opacity: 0.4;
+}
+
+
+.heart{
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 25px;
+
+}
+.bmw:hover .heart{
+    transform: scale(1);
+
+}
+.fas.fa-heart{
+    display: none;
+}
+.heart:hover .far.fa-heart{
+    display: none;
+}
+.heart:hover .fas.fa-heart{
+    display: block;
+}
+.addToCart{
+    background: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    transition: 0.4s;
+}
+.bmw:hover .addToCart{
+    bottom: 30px;
+
+}
+.bmw:hover img{
+    transform: scale(1.1)
+}
+
+
+/* .man{
+    width: 500px;
+    height: 700px;
+   position: relative;
+   transform: translate(500px,50px);
+   overflow: hidden;
+}
+.man img{
+width: 100%;
+height: 100%;
+
+}
+
+.overlay{
+position: absolute;
+ width: 100%;
+height: 100%;
+opacity: 0;
+left:500px;
+top: 50px;
+background: black;
+
+}
+.man:hover .overlay{
+    opacity: 0.3;
+}
+
+.man .app{
+    position: absolute;
+    top: -80px;
+    left: 6px;
+    display: inline-block;
+    width: 97%;
+    background: rgba(255,255,255,.7);
+    text-decoration: none;
+    padding: 17px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    font-size: 22px;
+opacity: 0;
+transition: 0.7s;
+
+}
+.man:hover .app{
+    opacity: 1;
+    top: 20px;
+}
+.app:hover{
+    background:rgba(255, 255, 255, 0.486);
+    color:rgb(0, 0, 0)
+}
+.icons a i.fab.fa-facebook-square{
+    position: absolute;
+    left: -70%;
+    bottom: 20px;
+transform: translateX(-50%);
+transition: 0.7s;
+}
+.icons li{
+    display: inline-block;
+
+}
+.icons li a{
+    color:rgb(0, 0,0);
+display: inline-block;
+padding: 10px 15px;
+text-align: center;
+font-size: 30px
+}
+.man:hover  .icons a i.fab.fa-facebook-square{
+   left: 40%
+}
+.icons a i.fab.fa-instagram{
+    position: absolute;
+    left: 50%;
+    bottom: -73px;
+transform: translateX(-50%);
+transition: 0.7s;
+
+}
+.man:hover .icons a i.fab.fa-instagram{
+    bottom: 20px
+}
+
+.icons a i.fab.fa-twitter-square{
+    position: absolute;
+    bottom: 20px;
+    right: -70px;
+transform: translateX(-50%);
+transition: 0.7s;
+}
+.man:hover .icons a i.fab.fa-twitter-square{
+    right: 35%
+}
+.icons a i.fab.fa-facebook-square:hover{
+    color: rgb(34, 34, 34);
+    transform: rotate(-180deg);
+    transition: 0.9s
+}
+.icons a i.fab.fa-instagram:hover{
+    color: rgb(34, 34, 34);
+    transition: 0.7s
+}
+.icons a i.fab.fa-twitter-square:hover{
+    color: rgb(34, 34, 34);
+    transform: rotate(180deg);
+    transition: 0.9s
+} */
